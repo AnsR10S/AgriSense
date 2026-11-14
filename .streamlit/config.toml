@@ -1,0 +1,59 @@
+# Streamlit reads this file when `streamlit run dashboard/app.py` is started from the project root.
+# Dark by default; the viewer can still switch themes from Streamlit's menu.
+
+[theme]
+base = "dark"
+
+primaryColor = "#78B88A"
+backgroundColor = "#101418"
+secondaryBackgroundColor = "#191F25"
+textColor = "#E8EDF0"
+linkColor = "#39C6D8"
+borderColor = "#303A43"
+codeBackgroundColor = "#222A31"
+codeTextColor = "#E8EDF0"
+
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "6px"
+buttonRadius = "6px"
+
+font = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+headingFont = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&display=swap"
+codeFont = "'IBM Plex Mono':https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+
+baseFontSize = 16
+baseFontWeight = 400
+codeFontSize = "13px"
+headingFontSizes = ["30px", "22px", "18px", "16px", "15px", "14px"]
+headingFontWeights = [600, 600, 600, 600, 500, 500]
+linkUnderline = false
+
+dataframeBorderColor = "#303A43"
+dataframeHeaderBackgroundColor = "#222A31"
+dataframeHeaderTextColor = "#E8EDF0"
+greenColor = "#78B88A"
+redColor = "#E47777"
+yellowColor = "#E6AD55"
+orangeColor = "#E6AD55"
+blueColor = "#39C6D8"
+violetColor = "#96A3AD"
+grayColor = "#96A3AD"
+chartCategoricalColors = [
+    "#39C6D8",
+    "#78B88A",
+    "#E6AD55",
+    "#E47777",
+    "#96A3AD",
+    "#E8EDF0",
+    "#5B7C8A",
+    "#C4A574",
+]
+
+[theme.sidebar]
+backgroundColor = "#101418"
+secondaryBackgroundColor = "#191F25"
+textColor = "#E8EDF0"
+borderColor = "#303A43"
+primaryColor = "#78B88A"
+codeBackgroundColor = "#222A31"
